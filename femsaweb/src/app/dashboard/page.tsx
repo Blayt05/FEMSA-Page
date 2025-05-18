@@ -69,7 +69,6 @@ export default function DashboardPage() {
           <p>Productos incorrectos: {generalStats.incorrectProducts}</p>
         </div>
 
-
         {/* Estadísticas del producto seleccionado (si existe) */}
         {selectedProduct && (
           <div
@@ -96,7 +95,7 @@ export default function DashboardPage() {
           </div>
         )}  
       </div>
-        {/* Hola */}
+
       {/* DERECHA - Imagen y rectángulos */}
       <div className="md:w-1/3 w-full relative">
         {data && (
